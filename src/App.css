@@ -1,0 +1,35 @@
+.container 
+{
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.border {
+  width: 100%;
+  background-color: #4f4f5d;
+  height: 1px;
+}
+ul 
+{
+  list-style: none;
+  text-decoration: none;
+}
+footer 
+{
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul 
+{
+  gap: 20px;
+  display: flex;
+}
+
+footer ul li {
+ 
+  color: #BC9CFF;
+  font-size: 30px;
+}

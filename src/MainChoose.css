@@ -1,0 +1,88 @@
+.choose {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sidebar {
+    width: 350px;
+}
+
+.top {
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.card-guest {
+    z-index: 1;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+[type="checkbox"] {
+    opacity: 0;
+    border: 1px solid #1F2041BF;
+}
+
+[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+[type="checkbox"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+[type="checkbox"]:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    width: 8px;
+    height: 14px;
+    border: solid #BC9CFF; 
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+[type="checkbox"]:checked + label::before {
+   
+    background-color: white;
+}
+
+.single-card img
+{
+width: 300px;
+}
+
+.f-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 300px);
+}
+
+.fcard-inside
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

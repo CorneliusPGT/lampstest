@@ -1,0 +1,62 @@
+.logo 
+{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p 
+{
+    color: #1F2041;
+    font-size: 25px;
+}
+
+.right-side
+{
+    gap: 20px;
+    display: flex;
+}
+
+.right-side ul 
+{
+    gap: 20px;
+    display: flex;
+}
+
+header 
+{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.login 
+{   
+    
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.login button 
+{   
+   
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.login button:nth-child(1) {
+    
+    border: 2px #BC9CFF solid;
+    background-color: #fefefe;
+    color: #BC9CFF;
+}
+.login button:nth-child(2) {
+    
+    border: 2px solid;
+  
+    color: white;
+    background-color: #BC9CFF;
+}

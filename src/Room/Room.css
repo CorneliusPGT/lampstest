@@ -1,0 +1,143 @@
+.pictures 
+{
+    display: flex;
+}
+
+.big-pics {
+    width: 70%;
+    height: auto;
+    object-fit: fill; 
+}
+
+.small-pics {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.small-pics img {
+    
+    width: 124%;
+    height: 100%;
+}
+
+.details > :not(:last-child) 
+{
+    margin-bottom: 40px;
+}
+
+.detail {
+    display: flex;
+    gap: 10px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.detail img 
+{
+    width: 48px;
+    height: 48px;
+}
+
+.top, .bot
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+    gap: 240px;
+}
+
+.mid div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mid> :not(:last-child) 
+{
+    margin-bottom: 40px;
+}
+
+.rules ul
+{
+    list-style: inside;
+    padding: 0;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+    gap: 100px;
+    
+}
+
+li::marker {
+color:#1F204140;
+}
+.review-logo
+{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.review-logo img {
+    margin-bottom: 10px;
+}
+
+.title 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dates 
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.right-side-room
+{
+    margin-top: 40px;
+    box-shadow: 20px 0px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    max-width: 350px;
+    margin-bottom: 605px;
+    border: 1px solid #0000001F;
+}
+
+.overall 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overall:first-child(){
+    position: relative;
+}
+
+.overall:first-child()::after{
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px dotted #000;
+    margin: 0 10px;
+    
+}
+
+.brone div 
+{
+    margin-bottom: 20px;
+}

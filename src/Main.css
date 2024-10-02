@@ -1,0 +1,237 @@
+.middle 
+{
+    background-image: url('./main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calendar {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.calendar-card
+{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    max-width: 350px;
+    margin-bottom: 605px;
+   
+}
+
+.calendar-card button 
+{
+    position: relative;
+}
+
+.calendar-card h2 {
+    color: #1F2041;
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
+.calendar-picker {
+    position: absolute;
+    z-index: 10000;
+    
+}
+
+ .calendar-card .button::after {
+    content: '➔'; 
+    position: absolute;
+    right: 20px;
+    transform: translateY(-25%); 
+    font-size: 16px;
+} 
+
+.calendar-inside 
+{
+    column-gap: 20px; 
+    row-gap: 20px; 
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.calendar-inside .card {
+    flex: 1 1 calc(50% - 10px); 
+    margin-bottom: 15px; 
+}
+
+.date-picker
+{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5px;
+    column-gap: 10px;
+    align-items: center;
+    border: 1px solid rgb(107, 107, 107);
+    padding: 10px;  
+}
+
+.guest-picker 
+{
+    
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    border: 1px solid rgb(107, 107, 107);
+    padding: 10px;
+}
+
+.card-guest {
+    position: relative;
+}
+
+  .button 
+{   
+    width: 100%;
+    border: none;
+    background-color: #BC9CFF;
+    color: white;
+    font-size: 12px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+.bottom-text {
+    text-align: right;
+    font-size: 14px;
+}
+
+.guest-panel
+{
+    background-color: #fff;
+    z-index: 1;
+    width: 99.5%;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.logo 
+{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p 
+{
+    color: #1F2041;
+    font-size: 25px;
+}
+
+.bottom
+{
+
+    align-items: start;
+  justify-content: space-between;
+    gap: 40px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.bottom-side {
+    max-width: 260px;
+}
+
+.bottom-side h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.bottom-side ul 
+{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.bottom-side li 
+{
+    color: #1F204180;
+    opacity: 100%;
+    margin-bottom: 20px;
+}
+
+ input 
+{
+    padding: 10px;
+    border-color: #1F204140;
+} 
+ .span {
+    position: relative;
+   
+}
+
+ .span::after {
+    content: '➔'; 
+    color: #8BA4F9;
+    position: absolute;
+    right: 10px;
+    transform: translateY(35%); 
+    font-size: 16px;
+}
+ 
+.guest-single, .guest-sets {
+    gap: 20px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guest-sets {
+    margin-top: 25px;
+}
+.guest-buttons {
+    width: 30px;
+    height: 30px;
+    justify-items: center;
+    border-radius: 50%;
+    border: 1px solid #1F204140;
+    box-shadow: none;
+    background-color: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.single-inside {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.guest-sets button 
+{
+    margin: 0;
+    padding: 0;
+    color: #BC9CFF;
+    border: none;
+    background-color: inherit;
+}
+
+.guest-single h3, .guest-sets h3 {
+    margin: 0px;
+    
+}
+
+.guest-picker.active {
+    border-radius: 5px 5px 0 0;
+}
+
+.guest-single > *, .guest-sets {
+    padding: 10px;  
+    
+}
